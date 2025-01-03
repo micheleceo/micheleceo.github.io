@@ -1,3 +1,11 @@
-theme: jekyll-theme-cayman
+theme: jekyll-theme-hacker
 title: Profile page
 description: About me
+
+nav:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: https://micheleceo.github.io/micheleceo/
+  - title: "Projects"
+    url: /projects
