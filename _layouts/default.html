@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="https://micheleceo.github.io/micheleceo/">About</a></li>
+      <li><a href="/projects">Projects</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    {{ content }}
+  </div>
+</body>
+</html>
