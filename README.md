@@ -1,6 +1,3 @@
-Michele Ceo
-============================
-
 Software Engineering Manager
 ----------------------------
 
